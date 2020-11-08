@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Лабораторна робота 2</title>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+<div align="center"> 
+<h2>Варіант 6</h2>
+
+<h3>Обчислення гіпотенузи</h3>
+<table>
+    <tr>
+        <td><label for="kat1">Введіть перший катет: </label></td>
+        <td><input type="number" id="kat1" name="kat1" placeholder="Введіть перший катет"></td>
+    </tr>
+
+    <tr>
+        <td><label for="kat2">Введіть другий катет: </label></td>
+        <td><input type="number" id="kat2" name="kat2" placeholder="Введіть другий катет"></td>
+    </tr>
+    <tr>
+        <td colspan="2"><input type="submit" id="calculate" value="Обчислити гіпотенузу"
+                               onclick="calculate()"></td>
+    </tr>
+     <tr>
+        <td colspan="2">
+            <div class="result" id="result">Результат</div>
+        </td>
+    </tr>
+
+</table>
+
+<h3>Приклад трикутника</h3>
+<div id="triangle">
+</div> 
+</div>
+</body>
+</html>

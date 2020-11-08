@@ -1,0 +1,46 @@
+* {
+    font-family: 'Comfortaa', cursive;
+}
+
+h3 {
+    margin: 1,75%;
+}
+
+table {
+    border: 4px double #333;
+     border-spacing: 15px 20px;
+    padding: 1%;
+}
+
+td {
+    text-align: center;
+    padding: 4px;
+}
+
+.result {
+    font-size: 20px;
+}
+
+#triangle {
+    width: 0;
+    border-top: 150px solid #F40F25;
+    border-left: 140px solid transparent;  
+    border-top: 150px solid #F40F25;
+    border-right: 140px solid transparent;
+    margin-top: 4%;
+}
+
+#calculate {
+    font-size: 25px;
+    background-color: white;
+    color: black;
+    border: 3px solid #0E1EF7;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+    padding: 10px 16px;
+}
+
+#calculate:hover {
+    background-color: #F819E6;
+    color: white;
+}
